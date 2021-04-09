@@ -1,0 +1,37 @@
+
+- DOM Function
+- DOM Event
+- localStorage
+  save data on the computer
+- event.preventDefault : in submit event handler
+- @keyframes
+- navigator
+- use API
+
+
+- display current time
+- input & save & display name 
+- input & save & display todo list
+- load background img randomly
+- load weather
+
+
+https://serranoarevalo.github.io/momonton/
+
+//weather API
+const API_KEY = "241051bf13976dd3ddf8b8d9f247255e";
+const WEATHER_API = "https://api.openweathermap.org/data/2.5/weather?";
+
+{"lat":37.4931456,"lon":126.9170176}
+https://api.openweathermap.org/data/2.5/weather?appid=241051bf13976dd3ddf8b8d9f247255e&lat=37.4931456&lon=126.9170176
+
+
+//unsplash API
+const UNSPLASH_API_KEY =
+  "b491e86a6957b396f44f1e15e41d3d242e17aa982607f161b95defd195c7f4dd";
+const UNSPLASH_URL = `https://api.unsplash.com/photos/random/?client_id=${UNSPLASH_API_KEY}&query=landscape&orientation=landscape`;
+
+
+https://api.unsplash.com/photos/random/?client_id=b491e86a6957b396f44f1e15e41d3d242e17aa982607f161b95defd195c7f4dd&query=landscape&orientation=landscape
+
+<img class="js-bk_img bk_img" src="https://images.unsplash.com/photo-1617564543129-4208b7f7e817?crop=entropy&amp;cs=srgb&amp;fm=jpg&amp;ixid=Mnw0MDI0M3wwfDF8cmFuZG9tfHx8fHx8fHx8MTYxNzk0NTk5OA&amp;ixlib=rb-1.2.1&amp;q=85" alt="">

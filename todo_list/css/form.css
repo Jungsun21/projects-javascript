@@ -1,0 +1,52 @@
+li {
+    list-style: none;
+}
+
+.center form {
+    align-content: center;
+}
+
+.center form input {
+    font-size: 1.5em; 
+    width: 100%;
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid var(--color-light-grey);
+    margin-bottom: var(--size-padding);
+    color: var(--color-white);
+}
+
+.center form input::placeholder {
+    color: var(--color-light-grey);
+    font-weight:lighter; 
+}
+
+.center form input:focus {
+    outline: none;
+}
+
+.center form .greeting {
+    display: none;
+    font-size: 1.5em;
+}
+
+.center form .todo_list {
+    padding: 0;
+    margin: 0;
+}
+
+.center .js-form_todo {
+    margin-top: 30px;
+}
+
+.center .js-form_todo > input {
+    margin-bottom: 0;
+}
+
+.center form .todo_list .job span {
+    margin-right: var(--size-padding);
+}
+
+.center form .todo_list .job > span:hover{
+    cursor: pointer;
+}

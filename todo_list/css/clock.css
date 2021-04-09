@@ -1,0 +1,12 @@
+.center .clock {
+  display: flex;
+  flex-direction: column;
+  color: var(--color-white);
+}
+
+
+.center .clock .time {
+  font-size: 4em;
+  text-align: center;
+  margin-bottom: var(--size-padding);
+}
